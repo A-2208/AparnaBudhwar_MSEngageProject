@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body {
+      background-image:url(https://thumbs.gfycat.com/PositiveZestyAmericankestrel-size_restricted.gif);
+	 
+      display: flex;
+      height: 100vh;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px;
+      font-family: Cinzel, serif;
+	  
+    }
+    
+	.btn-group{
+     position:absolute;
+     top:88%;
+     left:3%;
+   }
+ 
+   .btn-group .button {
+      background-color: black; 
+      color: pink; 
+      border: 5px solid #FFFF00;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 19px;
+      cursor: pointer;
+      float: left;
+    }
+
+   .btn-group .button:not(:last-child) {
+       border-right: none;  /*Borders of consecutive buttons are merged */
+    }
+
+    .btn-group .button:hover {
+       background-color: white;
+       color: pink;
+       border:5px solid pink;
+    } /* These 3 were for the hoverable bordered button groups*/
+	
+	
+	
+	video {
+      background: yellow;
+      background-image: url(https://i.pinimg.com/originals/49/4c/47/494c4775ff111fd8ebe515dffcf54c79.gif      );
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: contain;
+      max-width: calc(70% -5%);
+	  height:260px;
+	  width:365px;
+      margin: 0 2%;
+	  padding: 0%;
+	  
+	  
+	  
+    } /*for the video elements*/
+	
+	
+    .copy {
+      position: fixed;
+      top:15px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      color: pink;
+	  background-color: black;
+	  text-shadow: 1px 1px 1px black;
+	  border: 3px solid #FFFF00;
+	  text-align:center;
+	  padding: 20px 8px;
+	 
+    } /*for the main heading box*/
+	
+	.myele{
+	  position:absolute; 
+	  top: 3%; 
+	  left:2.3%;
+	
+	} /*for the select language element*/
+	
+	
+	.cpyurl{
+	  position:absolute; 
+	  top: 9.5%; 
+	  left:85.2%;
+	  color:white;
+	  background-color: #E51535 ;
+	  border:2px solid yellow;
+	  padding:3px 13px;
+	  font-family: Gill Sans, sans-serif;
+	  font-size:16px;
+	
+	}  /*for the copy sharavle link button*/
+	
+	.cpyurl:hover{
+	   background-color: #F7DAE9;
+	   color:#E51535;
+	    border:2px solid white;
+	}	
+	.tgrm{
+	  position:absolute; 
+	  top: 3%; 
+	  left:95.9%;
+	}
+	
+	.gmail{
+	  position:absolute; 
+	  top: 3%; 
+	  left:89.5%;
+	}
+	
+	.twitter{
+	  position:absolute; 
+	  top: 3%; 
+	  left:92.75%;
+	}
+	/*These 3 are for the social share buttons*/
+	
+	.infobtn1{
+	  position:absolute; 
+	  top: 3.5%; 
+	  left:81.5%;
+	  background:transparent;
+	  font-family:Cinzel, serif;
+	  border: white;
+	 
+	  color:#FC3131;
+	  font-size:21px;
+	
+	}
+	
+	.infobtn2{
+	  position:absolute; 
+	  top: 10%; 
+	  left:81.8%;
+	  background:transparent;
+	  font-family:Cinzel, serif;
+	  border:white;
+	  color:#FC3131;
+	  font-size:17px;
+	
+	}/* #E51535 */
+	
+	
+  </style>
+</head>
+<body>
+  
+  <div class="copy"><strong> Dear Buddy, Hello & Welcome  to <i><font color="white">   The Optimistic Kitten! ^-^ </font></i></strong><font color="#DE3163"> Hope you're fine during these tough times </font>:)
+                             </div>
+ 
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
+  <script src="script.js"></script>
+  
+  <div class="btn-group">
+  <a href="https://i.enkiquotes.com/Dl92nB624SWOZtqdB-QMspgoLQM=/400x0//images/2016/07/a199a27564479e21e5da4a78fc4e50a7.jpg" class="button"><strong>Give me a dose of positivity!</strong></a>
+  <a href="https://chat.abudhwar.com/" class="button"><strong>Join <i><font color="white"> The Optimistic Kitten </font></i>Chat Room! </strong></a>
+  <a href="https://www.myblackdog.co/ " class="button"><strong>Need mental health support!</strong></a>
+  <a href="https://youtu.be/ZbZSe6N_BXs" class="button"><strong>I need some good happy music!</strong></a>   
+  </div> 
+ 
+  
+  
+  <div class="myele" id="google_translate_element" > </div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+ 
+
+ 
+<script>
+function copyToClipboard(text) {
+var inputc = document.body.appendChild(document.createElement("input"));
+inputc.value = window.location.href;
+inputc.focus();
+inputc.select();
+document.execCommand('copy');
+inputc.parentNode.removeChild(inputc);
+alert("Your Optimistic Kitten link is copied to Clipboard! Share it with a friend and Get, set, meowww to video call :)");
+}
+</script>
+
+   <button class="cpyurl" onclick="copyToClipboard();">Copy Sharable Link</button>
+	
+	
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+
+<a class="a2a_button_twitter twitter"></a>
+
+<a class="a2a_button_google_gmail gmail"></a>
+<a class="a2a_button_telegram tgrm"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+<button class="infobtn1" ><strong>Share via</strong></button>
+<button class="infobtn2" ><strong>OR</strong></button>
+
+</body>
+</html>
